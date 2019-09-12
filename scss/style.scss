@@ -1,0 +1,72 @@
+@import "vars";
+@import "fonts";
+
+body {
+	font-size: 14px;
+	min-width: 320px;
+	line-height: 22px;
+	font-family: 'Roboto', sans-serif;
+	color: #767676;
+	font-family: 'PT SansR', sans-serif;
+}
+
+.conteiner {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.header {
+	background-color:#dcdcdc;
+	height: 230px;
+}
+.header-wrapper {
+	display: flex;
+	height: 100%;
+	.header-inner2 {
+		width: 50%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		.tel {
+			text-align: right;
+			&__item {
+				text-align: right;
+				text-decoration: none;
+				font-family: 'Open Sans CL', sans-serif;
+				letter-spacing: 1px;
+				font-size: 40px;
+				line-height: 46px;
+				color: #767676;
+			}
+		}
+	}
+	.header-inner1 {
+		width: 50%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		.logo{
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			&-description {
+				margin-left: 10px;
+				&__title{
+					color: #777;
+					font-size: 24px;
+				}
+				&__subtitle {
+					color: #777777;
+					font-size: 11px;
+				}
+			}
+		}
+	}
+}
+
+ /* in the end*/
+ @import "media";

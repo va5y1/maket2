@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "PT SansR";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/PTSans-Regular.ttf") format("ttf"); }
+
+@font-face {
+  font-family: "PT SansI";
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/PTSans-RegularItalic.ttf") format("ttf"); }
+
+@font-face {
+  font-family: "PT SansB";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/PTSans-Bold.ttf") format("ttf"); }
+
+@font-face {
+  font-family: "Open Sans CL";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/OpenSansCondensed-Light.ttf") format("ttf"); }
+
+body {
+  font-size: 14px;
+  min-width: 320px;
+  line-height: 22px;
+  font-family: 'Roboto', sans-serif;
+  color: #767676;
+  font-family: 'PT SansR', sans-serif; }
+
+.conteiner {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.header {
+  background-color: #dcdcdc;
+  height: 230px; }
+
+.header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%; }
+  .header-wrapper .header-inner2 {
+    width: 50%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+    .header-wrapper .header-inner2 .tel {
+      text-align: right; }
+      .header-wrapper .header-inner2 .tel__item {
+        text-align: right;
+        text-decoration: none;
+        font-family: 'Open Sans CL', sans-serif;
+        letter-spacing: 1px;
+        font-size: 40px;
+        line-height: 46px;
+        color: #767676; }
+  .header-wrapper .header-inner1 {
+    width: 50%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+    .header-wrapper .header-inner1 .logo {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start; }
+      .header-wrapper .header-inner1 .logo-description {
+        margin-left: 10px; }
+        .header-wrapper .header-inner1 .logo-description__title {
+          color: #777;
+          font-size: 24px; }
+        .header-wrapper .header-inner1 .logo-description__subtitle {
+          color: #777777;
+          font-size: 11px; }
+
+/* in the end*/
