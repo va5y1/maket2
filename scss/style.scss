@@ -68,5 +68,137 @@ body {
 	}
 }
 
+.menu {
+	background-color: #777;
+	height: 80px;
+	.nav {
+		height: 100%;
+		ul {
+			height: 100%;
+			list-style: none;
+			display: flex;
+			align-items: center;
+			margin: 0;
+			justify-content: center;
+			padding: 0;
+			li {
+				padding-left: 12px;
+				padding-right: 12px;
+				border-left: 1px solid #fff;
+				font-size: 30px;
+				&:first-child {
+					padding-left: 0;
+					border: none;
+				}
+				&:last-child {
+					padding-right: 0;
+				}
+			}
+			a {
+				color: #ffffff;
+				letter-spacing: 0.75px;
+				text-decoration: none;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+.slider {
+	height: 400px;
+	.slider-item {
+		height: 100%;
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+
+.content {
+	width: 978px;
+	margin: 30px auto 415px;
+	min-height: 560px;
+	display: flex;
+	flex-flow: row nowrap;
+	box-sizing: border-box;
+	&-news {
+		h2 {
+			font-size: 40px;
+			font-family: 'PT SansB', sans-serif;	
+		}
+		text-align: left;
+		color: #fff;
+		width: 350px;
+		padding: 22px 52px 100px 33px;
+		background-color: #777777;
+		letter-spacing: 0.35px;
+		.italic {
+			font-family: 'PT SansI', sans-serif;
+			font-style: italic;
+			font-weight: 300;
+		}
+		a {
+			display: block;
+			text-align: right;
+			color: #fff;
+		}
+	}
+	&-desc {
+		color: #767676;
+		h2 {
+			color: #767676;
+			font-size: 40px;
+			letter-spacing: 1px;
+			margin: 0;
+			margin-bottom: 30px;
+		}
+		p {
+			padding-bottom: 10px;
+		}
+		width: 100%;
+		padding: 59px 20px 0 47px;
+	}
+}
+
+.footer {
+	background-color: #777;
+	height: 220px;
+	color: #fff;
+	.footer-wrapper {
+		display: flex;
+		height: 100%;
+		.footer-inner1, .footer-inner2, .footer-inner3 {
+			flex-basis: 33%;
+		}
+		.footer-inner1 {
+			&-content {
+				a {
+					text-decoration: none;
+					color: #fff;
+				}
+			}
+		}
+		.footer-inner2 {
+			&-content {
+				a {
+					text-decoration: none;
+					color: #fff;
+				}
+			}
+		}
+		.footer-inner3 {
+			&-content {
+				a {
+					text-decoration: none;
+					color: #fff;
+				}
+			}
+		}
+
+	}
+}
+
  /* in the end*/
  @import "media";
